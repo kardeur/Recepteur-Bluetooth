@@ -208,7 +208,7 @@ KERNEL=="input[0-9]*", RUN+="/opt/local/bin/bluetooth-udev"
 EOF
 
 cat <<'EOF' > /etc/machine-info
-PRETTY_HOSTNAME=Kardeur
+PRETTY_HOSTNAME=Kardeur.io
 EOF
 
 sudo service bluetooth restart
