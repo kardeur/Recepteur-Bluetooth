@@ -214,3 +214,4 @@ EOF
 sudo service bluetooth restart
 sudo hciconfig hci0 up
 sudo hciconfig hci0 piscan
+sudo reboot
