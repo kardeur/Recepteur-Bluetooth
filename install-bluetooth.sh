@@ -1,9 +1,5 @@
 #!/bin/bash -e
 
-echo -n "Installer AP Bluetooth ? (BlueALSA)? [y/N] "
-read REPLY
-if [[ ! "$REPLY" =~ ^(yes|y|Y)$ ]]; then exit 0; fi
-
 apt install -y --no-install-recommends alsa-base alsa-utils bluealsa bluez python-gobject python-dbus vorbis-tools sound-theme-freedesktop
 #Adduser 
 
