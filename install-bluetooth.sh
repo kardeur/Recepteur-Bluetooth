@@ -1,4 +1,15 @@
 #!/bin/bash -e
+# -*- coding: utf-8 -*-
+#filename            : install-bluetooth.sh
+#description         : Configuration d'un récepteur bluetooth audio
+#author              : David Minard
+#email               : david@kardeur.io
+#date                : 07/01/2021
+#version             : 0.0.1
+#usage               : $ sh install-bluetooth.sh
+#notes               : 
+#license             : GPL-3.0 or any later version
+#==============================================================================
 
 apt install -y --no-install-recommends alsa-base alsa-utils bluealsa bluez python-gobject python-dbus vorbis-tools sound-theme-freedesktop
 #Adduser 
