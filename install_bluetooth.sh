@@ -218,9 +218,6 @@ SUBSYSTEM=="input", GROUP="input", MODE="0660"
 KERNEL=="input[0-9]*", RUN+="/opt/local/bin/bluetooth-udev"
 EOF
 
-cat <<'EOF' > /etc/machine-info
-PRETTY_HOSTNAME=Kardeur.io
-EOF
 
 sudo service bluetooth restart
 sudo hciconfig hci0 up
