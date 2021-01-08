@@ -15,7 +15,7 @@ apt install -y --no-install-recommends alsa-base alsa-utils bluealsa bluez pytho
 #Adduser 
 
 sudo useradd btspeaker
-sudo adduser config bluetooth
+sudo adduser pi bluetooth
 sudo adduser btspeaker audio
 sudo adduser btspeaker bluetooth
 
